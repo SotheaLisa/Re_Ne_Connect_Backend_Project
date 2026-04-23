@@ -1,26 +1,3 @@
-// const BASE_URL = "http://localhost:8080";
-
-// export async function getStudents() {
-//   const res = await fetch(`${BASE_URL}/api/v1/students`, { cache: "no-store" });
-//   if (!res.ok) throw new Error("Failed to fetch students");
-//   const data = await res.json();
-//   return data.payload; // ← extract payload array
-// }
-
-// export async function createStudent(studentData) {
-//   const res = await fetch(`${BASE_URL}/api/v1/students`, {
-//     method: "POST",
-//     headers: { "Content-Type": "application/json" },
-//     body: JSON.stringify(studentData),
-//   });
-//   const data = await res.json();
-//   return data.payload;
-// }
-
-// export async function deleteStudent(id) {
-//   await fetch(`${BASE_URL}/api/v1/students/${id}`, { method: "DELETE" });
-// }
-
 
 const BASE_URL = "http://localhost:8080";
 
